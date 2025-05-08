@@ -74,9 +74,14 @@ const Project = () => {
     <section className="bg-gradient-to-b from-[#4B1D3F] via-[#3a0d2f] to-[#1a0a10] min-h-screen py-20 px-6">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-center text-5xl font-bold text-rose-100 mb-16">
-          <span className="bg-gradient-to-r from-[##6fabf7]  via-[#4c35c0] to-[#ad3a60] text-transparent bg-clip-text">
-            Projects Showcase
-          </span>
+        <motion.span
+  className="text-[#9e2a2f] font-semibold"
+  initial={{ opacity: 0, y: -20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8, ease: "easeOut" }}
+>
+  Projects Showcase
+</motion.span>
         </h2>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
