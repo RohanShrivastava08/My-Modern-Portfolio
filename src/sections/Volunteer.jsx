@@ -57,7 +57,8 @@ const volunteerExperiences = [
 
 const Volunteer = () => {
   return (
-    <section className="bg-gradient-to-br from-[#f0f0f0] to-[#ffffff] py-20 px-6 font-mono">
+    <section className="bg-[linear-gradient(90deg,_#3F2B96_0%,_#A8C0FF_100%)] py-20 px-6 font-mono">
+
       <div className="max-w-7xl mx-auto">
         <motion.h2
           className="text-4xl font-bold mb-8 text-[#e74c3c] text-center"

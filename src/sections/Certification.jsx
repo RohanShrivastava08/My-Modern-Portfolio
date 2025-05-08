@@ -101,7 +101,8 @@ const Certification = () => {
   };
 
   return (
-    <section className="min-h-screen w-full bg-gradient-to-br from-[#0f0f0f] to-[#1a1a1a] py-20 px-4">
+    <section className="min-h-screen w-full bg-[linear-gradient(90deg,_#e3ffe7_0%,_#d9e7ff_100%)] py-20 px-4">
+
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
