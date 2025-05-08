@@ -33,7 +33,7 @@ const TechStack = () => {
   return (
     <section
       id="tech"
-      className="min-h-screen bg-[#0d1117] text-white px-6 py-20 font-['JetBrains_Mono','Inter','monospace']"
+      className="min-h-screen bg-[#0d1117] text-white px-6 py-20 font-['JetBrains_Mono','Inter','monospace'] bg-[linear-gradient(90deg,_#4b6cb7_0%,_#182848_100%)]"
     >
       <div className="max-w-6xl mx-auto">
 

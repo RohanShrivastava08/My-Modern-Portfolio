@@ -36,7 +36,7 @@ const WorkExperience = () => {
   return (
     <section
       id="experience"
-      className="min-h-screen bg-[#f1f4ff] text-white py-20 px-4 flex items-center justify-center font-['JetBrains_Mono','monospace']"
+      className="min-h-screen bg-[#f1f4ff] text-white py-20 px-4 flex items-center justify-center font-['JetBrains_Mono','monospace'] bg-[linear-gradient(90deg,_#d53369_0%,_#daae51_100%)]"
     >
       <motion.div
         initial={{ opacity: 0, y: 30 }}

@@ -53,14 +53,14 @@ const Footer = () => {
             className="flex space-x-5 text-2xl"
           >
             <a
-              href="mailto:example@email.com"
+              href="rohansh0808@email.com"
               className="hover:text-blue-600 transition-transform duration-300 transform hover:scale-110"
               aria-label="Email"
             >
               <FiMail />
             </a>
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/RohanShrivastava08"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-800 transition-transform duration-300 transform hover:scale-110"
@@ -69,7 +69,7 @@ const Footer = () => {
               <FiGithub />
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/rohan-shrivastava-887a15251/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-700 transition-transform duration-300 transform hover:scale-110"
@@ -78,7 +78,7 @@ const Footer = () => {
               <FiLinkedin />
             </a>
             <a
-              href="https://twitter.com/yourusername"
+              href="https://twitter.com/rohan_sh0808"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-sky-500 transition-transform duration-300 transform hover:scale-110"

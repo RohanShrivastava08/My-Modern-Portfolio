@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="min-h-screen bg-yellow-50 px-6 py-20 flex justify-center items-center"
+      className="min-h-screen px-6 py-20 flex justify-center items-center bg-[linear-gradient(90deg,_#FDBB2D_0%,_#3A1C71_100%)]"
     >
       <motion.div
         initial={{ opacity: 0, y: 40 }}
@@ -15,7 +15,7 @@ const About = () => {
         className="w-full max-w-4xl bg-white rounded-2xl shadow-xl border border-yellow-200 overflow-hidden"
       >
         {/* Window Controls */}
-        <div className="flex items-center justify-start space-x-3 px-4 py-3 bg-yellow-100 border-b border-yellow-200">
+        <div className="flex items-center justify-start space-x-3 px-4 py-3 bg-gray-300 border-b border-gray-300">
           <span className="w-4 h-4 rounded-full bg-red-500 cursor-pointer"></span>
           <span className="w-4 h-4 rounded-full bg-yellow-400 cursor-pointer"></span>
           <span className="w-4 h-4 rounded-full bg-green-500 cursor-pointer"></span>
