@@ -6,6 +6,7 @@ import WorkExperience from './sections/WorkExperience';
 import Project from './sections/Project';
 import Education from './sections/Education';
 import Certification from './sections/Certification';
+import Volunteer from './sections/Volunteer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Project />
       <Education /> 
       <Certification />
+      <Volunteer />
       {/* Add more sections as needed */}
     </>
   );
