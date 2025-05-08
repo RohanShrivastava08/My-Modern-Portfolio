@@ -8,6 +8,7 @@ import Education from './sections/Education';
 import Certification from './sections/Certification';
 import Volunteer from './sections/Volunteer';
 import Contact from './sections/Contact';
+import Footer from './sections/Footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Certification />
       <Volunteer />
       <Contact />
+      <Footer />
       {/* Add more sections as needed */}
     </>
   );
