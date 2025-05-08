@@ -71,7 +71,8 @@ const Project = () => {
   };
 
   return (
-    <section className="bg-gradient-to-b from-[#4B1D3F] via-[#3a0d2f] to-[#1a0a10] min-h-screen py-20 px-6">
+    <section className="bg-[linear-gradient(90deg,_#efd5ff_0%,_#515ada_100%)] min-h-screen py-20 px-6">
+
       <div className="max-w-6xl mx-auto">
         <h2 className="text-center text-5xl font-bold text-rose-100 mb-16">
         <motion.span

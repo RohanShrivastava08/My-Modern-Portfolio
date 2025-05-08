@@ -41,7 +41,8 @@ const cardVariants = {
 
 const Education = () => {
   return (
-    <section className="bg-gradient-to-b from-[#e0f7fa] to-[#b3e5fc] min-h-screen py-24 px-6 font-['JetBrains_Mono','Inter','monospace']">
+    <section className="bg-[linear-gradient(90deg,_#FDBB2D_0%,_#22C1C3_100%)] min-h-screen py-24 px-6 font-['JetBrains_Mono','Inter','monospace']">
+
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <motion.h2
