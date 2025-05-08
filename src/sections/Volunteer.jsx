@@ -5,23 +5,59 @@ import { motion } from 'framer-motion';
 const volunteerExperiences = [
   {
     id: 1,
-    role: 'Community Mentor',
-    org: 'Code for Cause',
-    year: '2024',
-    description: 'Mentored beginners on Git, Web Dev, and Open Source contributions through weekly live sessions.',
+    role: 'GitHub Global Campus Student',
+    org: 'GitHub',
+    year: 'Mar 2024 - Present',
+    description: 'Engage with a global community, collaborate on projects, develop coding skills, and contribute to open source. Access learning resources and earn recognition for contributions.',
   },
   {
     id: 2,
-    role: 'Tech Volunteer',
-    org: 'NGO Connect',
-    year: '2023',
-    description: 'Built a lightweight CMS for NGOs to manage activities and events.',
+    role: 'Postman API Fundamentals Student Expert',
+    org: 'Postman',
+    year: 'Apr 2024 - Present',
+    description: 'Learned API basics, navigated Postman environment, completed an AI text summarizer project, and earned expertise badge. Expanded skills for future projects and networked with industry professionals.',
+  },
+  {
+    id: 3,
+    role: 'Ninja Leader',
+    org: 'Coding Ninjas',
+    year: 'Feb 2024 - Jun 2024',
+    description: 'Representing Coding Ninjas at Manipal University, hosting events, empowering peers, and fostering a vibrant tech community. Successfully organized a quiz and code challenge event.',
+  },
+  {
+    id: 4,
+    role: 'Campus Ambassador',
+    org: 'TRYST, IIT Delhi',
+    year: 'Feb 2024 - Apr 2024',
+    description: 'Promoted TRYST, IIT Delhi, exceeded points goal, and engaged in social media outreach. Contributed to event success and earned completion certificate for tasks.',
+  },
+  {
+    id: 5,
+    role: 'Student Ambassador',
+    org: 'LetsUpgrade',
+    year: 'Mar 2024 - Apr 2024',
+    description: 'Promoted LetsUpgrade, shared referral links, engaged with learners, and expanded reach beyond campus. Helped onboard numerous learners and contributed to educational empowerment.',
+  },
+  {
+    id: 6,
+    role: 'Zuno Community Captain',
+    org: 'Zuno by foundit',
+    year: 'May 2024 - Nov 2024',
+    description: 'Promoted content, shared engaging posts, participated in practice tests, and earned bonuses. Proud to contribute to the Zuno community’s growth and success.',
+  },
+  {
+    id: 7,
+    role: 'Internshala Student Partner',
+    org: 'Internshala',
+    year: 'May 2024 - Sep 2024',
+    description: 'Shared Internshala opportunities on LinkedIn and among friends. Contributed to awareness and earned points and bonuses. Thrilled to help others discover amazing career opportunities.',
   },
 ];
 
+
 const Volunteer = () => {
   return (
-    <section className="min-h-screen bg-gradient-to-br from-[#f0f0f0] to-[#ffffff] py-20 px-6 font-mono">
+    <section className="bg-gradient-to-br from-[#f0f0f0] to-[#ffffff] py-20 px-6 font-mono">
       <div className="max-w-7xl mx-auto">
         <motion.h2
           className="text-4xl font-bold mb-8 text-[#e74c3c] text-center"
@@ -34,20 +70,20 @@ const Volunteer = () => {
         </motion.h2>
 
         <motion.div
-          className="bg-white p-8 rounded-xl shadow-lg border border-[#e74c3c]"
+          className="bg-white p-8 rounded-xl shadow-lg border border-[#e74c3c] overflow-visible"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          viewport={{ once: false, amount: 0.8 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: false, amount: 0.3 }}
         >
-          {volunteerExperiences.map((item, index) => (
+          {volunteerExperiences.map((item) => (
             <motion.div
               key={item.id}
               className="mb-8"
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.3 * index }}
-              viewport={{ once: false, amount: 0.8 }}
+              transition={{ duration: 0.5 }}
+              viewport={{ once: false, amount: 0.3 }}
             >
               <div className="flex items-center text-[#e74c3c] font-mono mb-6">
                 <span className="text-sm">GET /volunteer/{item.id} HTTP/1.1</span>
