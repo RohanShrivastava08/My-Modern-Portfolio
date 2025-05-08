@@ -5,31 +5,85 @@ import Modal from 'react-modal';
 const certifications = [
   {
     id: 1,
-    title: 'Full Stack Web Development',
+    title: 'META Front End Developer',
     platform: 'Coursera',
     year: 2024,
-    tags: ['#Web', '#FullStack', '#React'],
-    image: 'https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=800&q=80',
-    description: 'Learned to build full-stack web apps using the MERN stack, including backend integration, authentication, and deployment.',
+    tags: ['#FrontEnd', '#React', '#Meta'],
+    image: 'https://rohan-portfolio-rouge.vercel.app/static/media/certificateMetafrontend.19fd56ef093032387834.jpg',
+    description: 'Completed an in-depth course covering front-end technologies and responsive design.',
   },
   {
     id: 2,
-    title: 'AI For Everyone',
-    platform: 'DeepLearning.ai',
-    year: 2023,
-    tags: ['#AI', '#MachineLearning'],
-    image: 'https://imgs.search.brave.com/C-Jt9VSZiwDjUoU1pmcjpOxiVA_Dn8wndVoXClCjHP8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2M0LzBj/LzE1L2M0MGMxNTIw/ZGM0NDQ5YWMyOGQ3/MDE5MjEwN2QwNTk2/LmpwZw',
-    description: 'Explored core concepts of artificial intelligence, societal implications, and business applications of AI.',
+    title: 'Complete Web Development 2024 Bootcamp',
+    platform: 'Udemy',
+    year: 2024,
+    tags: ['#FullStack', '#Bootcamp'],
+    image: 'https://rohan-portfolio-rouge.vercel.app/static/media/certificateUdemywebdev.79ff08a1cb0fdd636ab8.jpg',
+    description: 'Gained comprehensive web development skills from front-end to back-end.',
   },
   {
     id: 3,
-    title: 'Responsive Web Design',
-    platform: 'freeCodeCamp',
-    year: 2022,
-    tags: ['#HTML', '#CSS', '#Responsive'],
-    image: 'https://cdn.pixabay.com/photo/2015/01/09/02/45/laptop-593673_1280.jpg',
-    description: 'Mastered responsive layouts using Flexbox and CSS Grid, ensuring optimal UI across all devices.',
+    title: 'Social Summer of Code - Season 3',
+    platform: 'Open Source',
+    year: 2023,
+    tags: ['#OpenSource', '#Contributions'],
+    image: 'https://rohan-portfolio-rouge.vercel.app/static/media/certificateSsoc.24623acf4097c8d315c6.png',
+    description: 'Completed coding contributions as part of Social Summer of Code.',
   },
+  {
+    id: 4,
+    title: 'Coding Ninjas Student Ambassador',
+    platform: 'Coding Ninjas',
+    year: 2023,
+    tags: ['#Leadership', '#Community'],
+    image: 'https://rohan-portfolio-rouge.vercel.app/static/media/certificateCn.ad681f00d2637a7307fa.png',
+    description: 'Recognized as a Student Ambassador for Coding Ninjas.',
+  },
+  {
+    id: 5,
+    title: 'IBM AI Developer Specialization',
+    platform: 'Coursera',
+    year: 2024,
+    tags: ['#AI', '#IBM'],
+    image: 'https://rohan-portfolio-rouge.vercel.app/static/media/certificateIbmspecial.44ffba1c678f50e05d83.jpg',
+    description: 'Specialization in AI development.',
+  },
+  {
+    id: 6,
+    title: '50 Days of JavaScript',
+    platform: 'codedamn',
+    year: 2024,
+    tags: ['#JavaScript', '#Challenge'],
+    image: 'https://rohan-portfolio-rouge.vercel.app/static/media/certificateCodedamn.581bcceee59feae3cfcc.jpg',
+    description: 'Completed a 50-day JavaScript bootcamp for mastering modern JavaScript.',
+  },
+  {
+    id: 7,
+    title: 'Introduction to Responsible AI',
+    platform: 'Google',
+    year: 2024,
+    tags: ['#AI', '#Ethics'],
+    image: 'https://rohan-portfolio-rouge.vercel.app/static/media/badgeGoogleai.9a445f4ae61293425e76.png',
+    description: 'Credential ID 8308509, focused on responsible AI principles and practices.',
+  },
+  {
+    id: 8,
+    title: '30 Days of HTML CSS',
+    platform: 'codedamn',
+    year: 2024,
+    tags: ['#HTML', '#CSS'],
+    image: 'https://rohan-portfolio-rouge.vercel.app/static/media/certificateCodedamn30.b9a2f4b042f32c8b2b25.jpg',
+    description: 'Completed a 30-day hands-on HTML and CSS course.',
+  },
+  {
+    id: 9,
+    title: 'Frontend React',
+    platform: 'HackerRank',
+    year: 2024,
+    tags: ['#React', '#Frontend'],
+    image: 'https://rohan-portfolio-rouge.vercel.app/static/media/certificateHackerrank.bf6d75eb4df3bef484ea.jpg',
+    description: 'Certificate of Accomplishment for Frontend Development with React.',
+  }
 ];
 
 const Certification = () => {
@@ -70,7 +124,7 @@ const Certification = () => {
               initial={{ opacity: 0, scale: 0.95, y: 20 }}
               whileInView={{ opacity: 1, scale: 1, y: 0 }}
               viewport={{ once: false }}
-              transition={{ duration: 0.5, delay: index * 0.2 }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
               whileHover={{ scale: 1.03 }}
             >
               <img
