@@ -36,47 +36,51 @@ const WorkExperience = () => {
   return (
     <section
       id="experience"
-      className="min-h-screen bg-[#e9fdf1] text-[#1b2b22] py-20 px-4 flex items-center justify-center font-['JetBrains_Mono','monospace']"
+      className="min-h-screen bg-[#0e1a1f] text-white py-20 px-4 flex items-center justify-center font-['JetBrains_Mono','monospace']"
     >
-      <div className="w-full max-w-5xl bg-[#2c2f36] border border-[#2a343e] shadow-xl rounded-lg overflow-hidden">
-
-        {/* Header - Classy, Bold */}
-        <div className="bg-[#3a4149] py-4 px-6 border-b border-[#2a343e]">
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.7 }}
+        className="w-full max-w-5xl bg-[#1c252b] border border-[#2a343e] shadow-2xl rounded-xl overflow-hidden"
+      >
+        {/* Header */}
+        <div className="bg-[#263238] py-5 px-6 border-b border-[#37474f]">
           <motion.h2
-            initial={{ opacity: 0, y: -20 }}
+            initial={{ opacity: 0, y: -10 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="text-3xl font-extrabold text-[#e1f5d1]"
+            className="text-3xl font-extrabold text-[#e0f7fa]"
           >
             Work Experience
           </motion.h2>
         </div>
 
-        {/* Tabs Bar (VS Code Style) */}
-        <div className="flex items-center justify-between px-4 py-2 bg-[#3a4149] border-b border-[#2a343e]">
+        {/* Tabs Bar (VS Code style) */}
+        <div className="flex items-center justify-between px-4 py-2 bg-[#263238] border-b border-[#37474f]">
           <div className="flex space-x-2">
-            <div className="w-3 h-3 bg-[#ff5f56] rounded-full"></div>
-            <div className="w-3 h-3 bg-[#ffbd2e] rounded-full"></div>
-            <div className="w-3 h-3 bg-[#27c93f] rounded-full"></div>
+            <div className="w-3 h-3 bg-red-500 rounded-full"></div>
+            <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
+            <div className="w-3 h-3 bg-green-500 rounded-full"></div>
           </div>
-          <div className="flex items-center space-x-4 text-sm font-medium text-[#b0c4b2]">
-            <span className="px-3 py-1 bg-white rounded-t-md border-x border-t border-[#b9dccc] text-[#1c3d2a]">
+          <div className="flex space-x-4 text-sm text-[#90a4ae] font-medium">
+            <span className="px-3 py-1 bg-white rounded-t-md border border-[#b0bec5] text-[#1b2b2d]">
               experience.log
             </span>
-            <span className="px-3 py-1 text-[#94b8a1]">projects.js</span>
-            <span className="px-3 py-1 text-[#94b8a1]">skills.md</span>
+            <span className="px-3 py-1">projects.js</span>
+            <span className="px-3 py-1">skills.md</span>
           </div>
           <div className="w-4"></div>
         </div>
 
-        {/* Terminal Body */}
-        <div className="bg-[#2c2f36] text-[#d1d8d2] px-6 md:px-10 py-10 text-sm leading-relaxed">
-          {/* Typewriter Title */}
+        {/* Terminal-like Body */}
+        <div className="bg-[#1c252b] text-[#eceff1] px-6 md:px-10 py-10 text-sm leading-relaxed">
+          {/* Typewriter Line */}
           <motion.p
-            initial={{ opacity: 0, y: -10 }}
+            initial={{ opacity: 0, y: -8 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="text-[#1d7f5c]"
+            transition={{ duration: 0.5 }}
+            className="text-[#00c853]"
           >
             <Typewriter
               words={['> compiling experience.log...']}
@@ -89,20 +93,20 @@ const WorkExperience = () => {
             />
           </motion.p>
 
-          {/* Experience List */}
+          {/* Experience Cards */}
           {experiences.map((exp, idx) => (
             <motion.div
               key={idx}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: idx * 0.3 }}
-              className="mt-6"
+              className="mt-8"
             >
-              <p className="text-[#e1f5d1] font-semibold">
-                {exp.role} <span className="text-[#4caf50]">at</span> {exp.company}
+              <p className="text-lg font-semibold text-[#b2ff59]">
+                {exp.role} <span className="text-[#4dd0e1]">at</span> {exp.company}
               </p>
-              <p className="text-[#b0c4b2] text-xs mb-2">{exp.duration}</p>
-              <ul className="list-disc list-inside text-[#d1d8d2] pl-4 space-y-1">
+              <p className="text-sm text-[#80cbc4] mb-2">{exp.duration}</p>
+              <ul className="list-disc list-inside text-[#eceff1] space-y-1 ml-2">
                 {exp.bullets.map((point, i) => (
                   <li key={i}>{point}</li>
                 ))}
@@ -110,12 +114,12 @@ const WorkExperience = () => {
             </motion.div>
           ))}
 
-          {/* Terminal Footer Line */}
+          {/* Footer Line */}
           <motion.p
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ delay: 1, duration: 1 }}
-            className="mt-12 text-[#52796f] font-medium"
+            transition={{ delay: 1.2, duration: 1 }}
+            className="mt-12 text-[#4db6ac] font-medium"
           >
             <Typewriter
               words={['// Process complete — experience.log saved ✅']}
@@ -124,11 +128,11 @@ const WorkExperience = () => {
               cursorStyle="|"
               typeSpeed={40}
               deleteSpeed={0}
-              delaySpeed={3000}
+              delaySpeed={2500}
             />
           </motion.p>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };
