@@ -12,7 +12,8 @@ const Contact = () => {
   };
 
   return (
-    <section className="min-h-screen bg-gradient-to-br from-[#002b36] via-[#014f43] to-[#003322] flex flex-col items-center justify-center px-4 py-20 font-sans relative overflow-hidden">
+    <section className="min-h-screen bg-[linear-gradient(90deg,_#00C9FF_0%,_#92FE9D_100%)] flex flex-col items-center justify-center px-4 py-20 font-sans relative overflow-hidden">
+
       {/* Animated Header */}
       <motion.h2
         initial={{ opacity: 0, y: -20 }}
@@ -21,7 +22,7 @@ const Contact = () => {
         viewport={{ once: false, amount: 0.8 }}
         className="text-4xl font-bold text-white mb-10"
       >
-        <span className="bg-gradient-to-r from-green-300 to-blue-400 text-transparent bg-clip-text">
+        <span className="bg-gradient-to-r from-yellow-800 to-blue-800 text-transparent bg-clip-text">
           Contact Me
         </span>
       </motion.h2>

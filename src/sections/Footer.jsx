@@ -8,7 +8,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-gradient-to-r from-[#f6f7fa] via-[#f1f1f1] to-[#f9f9f9] text-gray-700 py-14 border-t border-gray-200 shadow-inner font-sans">
+    <footer className="bg-[linear-gradient(90deg,_#e3ffe7_0%,_#d9e7ff_100%)] text-gray-700 py-14 border-t border-gray-200 shadow-inner font-sans">
       <div className="max-w-7xl mx-auto px-6 sm:px-10 flex flex-col gap-10">
 
         {/* Animated Top Row */}
