@@ -38,27 +38,28 @@ const WorkExperience = () => {
       id="experience"
       className="min-h-screen bg-[#e9fdf1] text-[#1b2b22] py-20 px-4 flex items-center justify-center font-['JetBrains_Mono','monospace']"
     >
-      <div className="w-full max-w-5xl bg-[#e0f5e9] border border-[#c4e2d1] shadow-xl rounded-lg overflow-hidden">
+      <div className="w-full max-w-5xl bg-[#2c2f36] border border-[#2a343e] shadow-xl rounded-lg overflow-hidden">
 
         {/* Header - Classy, Bold */}
-        <div className="bg-[#d3f1dd] py-4 px-6 border-b border-[#b9dccc]">
+        <div className="bg-[#3a4149] py-4 px-6 border-b border-[#2a343e]">
           <motion.h2
             initial={{ opacity: 0, y: -20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="text-3xl font-extrabold text-[#2d6a4f]">
+            className="text-3xl font-extrabold text-[#e1f5d1]"
+          >
             Work Experience
           </motion.h2>
         </div>
 
         {/* Tabs Bar (VS Code Style) */}
-        <div className="flex items-center justify-between px-4 py-2 bg-[#d3f1dd] border-b border-[#b9dccc]">
+        <div className="flex items-center justify-between px-4 py-2 bg-[#3a4149] border-b border-[#2a343e]">
           <div className="flex space-x-2">
             <div className="w-3 h-3 bg-[#ff5f56] rounded-full"></div>
             <div className="w-3 h-3 bg-[#ffbd2e] rounded-full"></div>
             <div className="w-3 h-3 bg-[#27c93f] rounded-full"></div>
           </div>
-          <div className="flex items-center space-x-4 text-sm font-medium text-[#3b5245]">
+          <div className="flex items-center space-x-4 text-sm font-medium text-[#b0c4b2]">
             <span className="px-3 py-1 bg-white rounded-t-md border-x border-t border-[#b9dccc] text-[#1c3d2a]">
               experience.log
             </span>
@@ -69,7 +70,7 @@ const WorkExperience = () => {
         </div>
 
         {/* Terminal Body */}
-        <div className="bg-[#f3fdf7] px-6 md:px-10 py-10 text-sm leading-relaxed">
+        <div className="bg-[#2c2f36] text-[#d1d8d2] px-6 md:px-10 py-10 text-sm leading-relaxed">
           {/* Typewriter Title */}
           <motion.p
             initial={{ opacity: 0, y: -10 }}
@@ -97,11 +98,11 @@ const WorkExperience = () => {
               transition={{ duration: 0.6, delay: idx * 0.3 }}
               className="mt-6"
             >
-              <p className="text-[#2d6a4f] font-semibold">
+              <p className="text-[#e1f5d1] font-semibold">
                 {exp.role} <span className="text-[#4caf50]">at</span> {exp.company}
               </p>
-              <p className="text-[#6b9080] text-xs mb-2">{exp.duration}</p>
-              <ul className="list-disc list-inside text-[#1b4332] pl-4 space-y-1">
+              <p className="text-[#b0c4b2] text-xs mb-2">{exp.duration}</p>
+              <ul className="list-disc list-inside text-[#d1d8d2] pl-4 space-y-1">
                 {exp.bullets.map((point, i) => (
                   <li key={i}>{point}</li>
                 ))}
