@@ -13,7 +13,9 @@ const projects = [
     link: 'https://live-notion-project.com',
     description: 'Notion-style collaborative app with Next.js, Convex, Clerk Auth, and more.',
     features: ['Real-time sync', 'Markdown editing', 'Beautiful UI'],
-    images: ['path_to_img/notion1.png', 'path_to_img/notion2.png'],
+    images: [
+      'https://private-user-images.githubusercontent.com/94133270/380236940-014ebb4a-47de-46da-9afd-aabb8d8791ac.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDY3MjcyMTEsIm5iZiI6MTc0NjcyNjkxMSwicGF0aCI6Ii85NDEzMzI3MC8zODAyMzY5NDAtMDE0ZWJiNGEtNDdkZS00NmRhLTlhZmQtYWFiYjhkODc5MWFjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTA4VDE3NTUxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTAwNmFmYWRhZTQ5NzE0NmQzNmQ5NzNhYzc4NmY2YTY4ZGQxODhjNGJmMjE4MjcyMjYwODJhMGRhZjA0Mzg3ODAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.NRXgOlHu1UxSH0lXiX9MZx1DkblBDOmiUDsLqUlgyBc',
+       'https://private-user-images.githubusercontent.com/94133270/380236946-c4c95914-2ac1-4f69-a28c-272e59f260d7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDY3MjcyMTEsIm5iZiI6MTc0NjcyNjkxMSwicGF0aCI6Ii85NDEzMzI3MC8zODAyMzY5NDYtYzRjOTU5MTQtMmFjMS00ZjY5LWEyOGMtMjcyZTU5ZjI2MGQ3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTA4VDE3NTUxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTYzOTgzYzk4ODYyMWNjZjMzNTQ4ZjgyOTg3MGYyYmFhZDg1Y2MwOTcxOGJhODdiYTZmNzRlOGJjNjJjYzg4YmQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.csKRj2NB5oImhY9HDcOdtuDFEx_hTGmRgGroJxvY_as'],
     tags: ['#WebApp', '#NextJS', '#Collaboration'],
   },
   {
@@ -22,7 +24,9 @@ const projects = [
     link: 'https://live-portfolio.com',
     description: 'Built in 10 minutes using AI. Enhanced by ChatGPT + Framer Motion.',
     features: ['AI Generated', 'Animations', 'Responsive'],
-    images: ['path_to_img/portfolio1.png', 'path_to_img/portfolio2.png'],
+    images: [
+      'https://private-user-images.githubusercontent.com/94133270/441831206-d018de82-359f-436d-93df-89edafbd4902.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDY3Mjc3OTcsIm5iZiI6MTc0NjcyNzQ5NywicGF0aCI6Ii85NDEzMzI3MC80NDE4MzEyMDYtZDAxOGRlODItMzU5Zi00MzZkLTkzZGYtODllZGFmYmQ0OTAyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTA4VDE4MDQ1N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQxMWRkMzMwNjlhODhlY2FjYzI5ZDY2YzExNDhjYjYyNGI1OWY4ZWE5NDI0ZTk3MDIwNzkyMmZjYjBkN2M0OTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.lB6c2HkbPhoy-N94A_6u-D8gQIe-9aKz90-IuDLv4pM', 
+      'https://private-user-images.githubusercontent.com/94133270/441831421-653b62e6-636f-46c5-8828-d1a8376cb553.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDY3Mjc3OTcsIm5iZiI6MTc0NjcyNzQ5NywicGF0aCI6Ii85NDEzMzI3MC80NDE4MzE0MjEtNjUzYjYyZTYtNjM2Zi00NmM1LTg4MjgtZDFhODM3NmNiNTUzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTA4VDE4MDQ1N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTNjODYyZWExOTIzZTNjZjI1MjE5ZjgyNDIyMzYwYzNlOGE0NDNiNmIyMjFhMGQyY2I3N2VjOGVhMTg1MzdiNzAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Z9EwjJyRiT96KAGBcvI7D8swFBZdi2sR1o44k-Fkr9A'],
     tags: ['#Portfolio', '#AI', '#FramerMotion'],
   },
   {
@@ -31,7 +35,9 @@ const projects = [
     link: 'https://live-apple-website.com',
     description: 'Stunning Apple-like clone with GSAP, 3D Three.js, and scroll animation.',
     features: ['Three.js 3D', 'GSAP Scroll', 'Tailwind Design'],
-    images: ['path_to_img/apple1.png', 'path_to_img/apple2.png'],
+    images: [
+      'https://private-user-images.githubusercontent.com/94133270/425720206-27a7e468-7044-4b55-bf0d-52dc8804aa3b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDY3Mjc4NjQsIm5iZiI6MTc0NjcyNzU2NCwicGF0aCI6Ii85NDEzMzI3MC80MjU3MjAyMDYtMjdhN2U0NjgtNzA0NC00YjU1LWJmMGQtNTJkYzg4MDRhYTNiLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTA4VDE4MDYwNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThhNDk4YjA4OTc1YWNkY2Y1ZmVhMWU1YThlODgxNjFkNDIxN2RlMGM0NjQzOTZmNzE5OTE0NDE3NDU4OWU1MDEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.6c9rme196cizwgViJnlLOI-elR07bzwjYRpg-PSnv3M', 
+      'https://private-user-images.githubusercontent.com/94133270/425720213-f1f8c914-0c21-45d0-b470-0a48ce8d5656.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDY3Mjc4NjQsIm5iZiI6MTc0NjcyNzU2NCwicGF0aCI6Ii85NDEzMzI3MC80MjU3MjAyMTMtZjFmOGM5MTQtMGMyMS00NWQwLWI0NzAtMGE0OGNlOGQ1NjU2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTA4VDE4MDYwNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWMzMmE3ZjA5ODA0YjRjODI4NWZmNTI0M2M5YjkzMTA5MTcyOWE2YjFhNTZhMjk2Yjg5ZDI2ZjdkNTRhOGI4MWQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.V_hJI76RhC7K5Cct7Nhi3h5YdUkSWlzR1wu7t5iPAbQ'],
     tags: ['#ThreeJS', '#Clone', '#GSAP'],
   },
 ];
