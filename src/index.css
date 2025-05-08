@@ -1,0 +1,58 @@
+@import 'tailwindcss';
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000; /* Optional dark base */
+}
+
+h1, p {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+@keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .animate-marquee {
+    display: inline-block;
+    animation: marquee 20s linear infinite;
+  }
+  
+/* Modal overlay */
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Modal content with animation */
+.modal-content {
+  background: transparent;
+  border: none;
+  outline: none;
+  animation: zoomIn 0.3s ease-in-out;
+  width: 90%;
+  max-width: 700px;
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(0.85);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
