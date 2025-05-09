@@ -97,23 +97,6 @@ const Volunteer = () => {
                 <p className="text-gray-700 mt-3">{item.description}</p>
               </div>
 
-              <div className="flex gap-6 mb-6">
-                <motion.button
-                  className="bg-[#e74c3c] hover:bg-[#c0392b] px-5 py-2 text-white rounded-lg flex items-center gap-2 transition-colors"
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  <FiDownload /> Export
-                </motion.button>
-                <motion.button
-                  className="bg-[#e74c3c] hover:bg-[#c0392b] px-5 py-2 text-white rounded-lg flex items-center gap-2 transition-colors"
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  <FiShare2 /> Share
-                </motion.button>
-              </div>
-
               <div className="text-sm text-gray-600">
                 <strong>Status:</strong> <span className="text-[#2ecc71]">200 OK</span>
               </div>

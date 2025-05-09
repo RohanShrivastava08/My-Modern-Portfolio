@@ -10,7 +10,7 @@ const projects = [
   {
     id: '1',
     name: 'Notion Project',
-    link: 'https://live-notion-project.com',
+    link: 'https://note-making-sepia.vercel.app/',
     description: 'Notion-style collaborative app with Next.js, Convex, Clerk Auth, and more.',
     features: ['Real-time sync', 'Markdown editing', 'Beautiful UI'],
     images: [
@@ -21,7 +21,7 @@ const projects = [
   {
     id: '2',
     name: 'Portfolio Project',
-    link: 'https://live-portfolio.com',
+    link: 'https://my-portfolio-by-bolt-ai.vercel.app/',
     description: 'Built in 10 minutes using AI. Enhanced by ChatGPT + Framer Motion.',
     features: ['AI Generated', 'Animations', 'Responsive'],
     images: [
@@ -32,7 +32,7 @@ const projects = [
   {
     id: '3',
     name: 'Apple Website Clone',
-    link: 'https://live-apple-website.com',
+    link: 'https://apple-project-using-three-js-gsap.vercel.app/',
     description: 'Stunning Apple-like clone with GSAP, 3D Three.js, and scroll animation.',
     features: ['Three.js 3D', 'GSAP Scroll', 'Tailwind Design'],
     images: [
