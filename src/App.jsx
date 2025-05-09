@@ -1,4 +1,6 @@
+// App.jsx
 import React from 'react';
+import Navbar from './sections/Navbar';
 import Hero from './sections/Hero';
 import About from './sections/About';
 import TechStack from './sections/TechStack'; 
@@ -13,17 +15,17 @@ import Footer from './sections/Footer';
 function App() {
   return (
     <>
-      <Hero />
-      <About />
-      <TechStack /> 
-      <WorkExperience />
-      <Project />
-      <Education /> 
-      <Certification />
-      <Volunteer />
-      <Contact />
+      <Navbar />
+      <section id="home"><Hero /></section>
+      <section id="about"><About /></section>
+      <section id="techstack"><TechStack /></section>
+      <section id="workexperience"><WorkExperience /></section>
+      <section id="project"><Project /></section>
+      <section id="education"><Education /></section>
+      <section id="certification"><Certification /></section>
+      <section id="volunteer"><Volunteer /></section>
+      <section id="contact"><Contact /></section>
       <Footer />
-      {/* Add more sections as needed */}
     </>
   );
 }

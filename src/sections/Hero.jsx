@@ -9,6 +9,13 @@ const Hero = () => {
     }
   };
 
+  const scrollToProjects = () => {
+    const projectSection = document.getElementById('project');
+    if (projectSection) {
+      projectSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="h-screen bg-gradient-to-r from-blue-500 via-purple-600 to-pink-500 flex flex-col justify-center items-center text-white relative overflow-hidden">
       <motion.div
@@ -47,6 +54,7 @@ const Hero = () => {
         </div>
 
         <motion.button
+          onClick={scrollToProjects} // Add the click handler here to navigate to the Project section
           className="mt-6 bg-white text-purple-600 px-8 py-3 rounded-full text-lg font-semibold hover:bg-gray-100 transition-all shadow-md"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
