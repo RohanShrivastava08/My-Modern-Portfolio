@@ -1,5 +1,9 @@
 # 🚀 My Modern Portfolio – A Developer's Interactive Showcase
 
+- A polished, interactive, and visually stunning portfolio built to reflect my skills, creativity, and journey as a full-stack web developer.
+
+- This project brings together clean design, modern UI inspirations, and technical depth — all crafted with ❤️ using React, Vite, Tailwind CSS, Firebase, and Framer Motion.
+
 ![Screenshot (1)](https://github.com/user-attachments/assets/ade750db-4f7c-44ed-8f97-9b56e491b9d8)
 
 ![Screenshot (2)](https://github.com/user-attachments/assets/1331402e-4091-4b7e-883a-30a470cc26b1)
@@ -7,12 +11,6 @@
 ![Screenshot (4)](https://github.com/user-attachments/assets/40d1df24-84aa-45aa-9108-17e2b70b475f)
 
 ![Screenshot (7)](https://github.com/user-attachments/assets/7f813918-ee4e-45ce-a967-7a5087ad977b)
-
-
-
-- A polished, interactive, and visually stunning portfolio built to reflect my skills, creativity, and journey as a full-stack web developer.
-
-- This project brings together clean design, modern UI inspirations, and technical depth — all crafted with ❤️ using React, Vite, Tailwind CSS, Firebase, and Framer Motion.
 
 
 
