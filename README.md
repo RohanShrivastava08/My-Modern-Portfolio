@@ -2,7 +2,9 @@
 
 - A polished, interactive, and visually stunning portfolio built to reflect my skills, creativity, and journey as a full-stack web developer.
 
-- This project brings together clean design, modern UI inspirations, and technical depth — all crafted with ❤️ using React, Vite, Tailwind CSS, Firebase, and Framer Motion.
+- This project brings together clean design, modern UI inspirations, and technical depth.
+
+- All crafted using React, Vite, Tailwind CSS, Firebase, and Framer Motion.
 
 ![Screenshot (1)](https://github.com/user-attachments/assets/ade750db-4f7c-44ed-8f97-9b56e491b9d8)
 
